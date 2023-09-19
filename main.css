@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    padding-top: 15px;
+}
+
+header {    
+    background-color: rgb(255, 255, 255, 0.4);
+}
+
+body {
+    background-image: linear-gradient(
+        to bottom, rgb(194, 192, 192, 0.5) 50%,
+        rgb(74, 73, 73, 0.5)
+        );
+        background-repeat: no-repeat;    
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+        background-attachment: fixed;
+        max-width: 100%;
+    }
+
+body img {
+    max-width: 100%;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+    font-size: 1.3em;
+    margin: 10px;
+    font-weight: bolder;
+}
+nav li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.sobre-nos h1{
+    display: flex;
+}
+
+.nos {
+    border-bottom: solid #b7b2b2;
+    padding-bottom: 50px;
+} 
+
+.nos img{
+    max-width: 600px;
+    padding-top: 40px;
+}
+
+.nos {
+    display: flex;
+}
+
+.nos h3, p {
+    padding: 20px;
+}
+
+.produtos h2 {
+    padding: 40px 0;
+    font-size: 1.5em;
+}
+
+.produto {
+    display: inline-block;
+    width: 50%;
+}
+
+#bl1 {
+    height: 288px;
+    width: 512px;
+}
